@@ -1,0 +1,16 @@
+#navPic{
+  width: 100%;
+  height: 70px
+}
+
+#main-col-left{
+  width: 630px;
+  position: relative;
+  top: 310px;
+  left: 225px
+}
+
+.booking-details-container{
+  position: absolute;
+  right: -400px !important;
+}
