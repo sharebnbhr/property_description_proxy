@@ -15,13 +15,33 @@
   <title>Sharebnb</title>
 </head>
 <body>
-  <img id='navPic' src='https://s3-us-west-1.amazonaws.com/sharebnbicons/Nav+screen+shot.png'>
-  <div id='gallery'></div>
-  <div id='main-col-left'>
-    <div id='description'></div>
-    <div id='reservation'></div>
-    <div id='reviews'></div>
+  <div id='navPic'>
+    <img id='navLeft' src='https://s3-us-west-1.amazonaws.com/sharebnbicons/nav+left.png'>
+    <img id='navRight' src='https://s3-us-west-1.amazonaws.com/sharebnbicons/nav+right.png'>
   </div>
+  <div id='gallery'>Loading Gallery</div>
+  <div id='spacer'></div>
+  <div id='mainFlexbox'>
+    <div id='leftCol'>
+      <div id='description'>Loading Description</div>
+      <div id='reservation'>Loading Reservation</div>
+      <div id='reviews'>Loading Reviews</div>
+      <img id='hostInfo' src='https://s3-us-west-1.amazonaws.com/sharebnbicons/hosted+by+SS.png'></img>
+      <img id='neighborhood' src='https://s3-us-west-1.amazonaws.com/sharebnbicons/neighborhood+SS.png'></img>
+      <img id='policies' src='https://s3-us-west-1.amazonaws.com/sharebnbicons/policies+SS.png'></img>
+    </div>
+    <div id='rightCol'>
+      <div id='bookings-master-container'></div>
+    </div>
+  </div>
+  <div id="footer">
+      <img src="https://s3-us-west-1.amazonaws.com/sharebnbicons/more+homes.png" alt="" width="1000px">
+      <img src="https://s3-us-west-1.amazonaws.com/sharebnbicons/explore+other+options.png" alt="" width="1000px">
+      <div style="border-top: 1px solid rgb(235, 235, 235)"></div>
+      <img src="https://s3-us-west-1.amazonaws.com/sharebnbicons/bottom+of+page.png" alt="" width="1000px">
+      <div style="height: 50px"></div>
+  </div>
+  
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script src='http://localhost:3001/bundle.js'></script>

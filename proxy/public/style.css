@@ -1,16 +1,54 @@
 #navPic{
   width: 100%;
-  height: 70px
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#main-col-left{
-  width: 630px;
-  position: relative;
-  top: 310px;
-  left: 225px
+#navLeft{
+  margin-left:15px;
+  width: 540px
 }
 
-.booking-details-container{
-  position: absolute;
-  right: -400px !important;
+#navRight{
+  margin-right:15px;
+  width: 540px
 }
+
+#hostInfo{
+  width: 100%
+}
+
+#neighborhood{
+  width: 100%
+}
+
+#policies{
+  width: 100%
+}
+
+/*  */
+
+#spacer {
+  height: 300px;
+}
+#mainFlexbox {
+  display: flex;
+  flex-direction: row;
+  width: min-content;
+  margin: auto;
+}
+#rightCol {
+  margin-top: 20px;
+}
+#bookings-master-container {
+  position: sticky;
+  top: 70px;
+  margin-left: 40px;
+}
+#footer {
+  justify-content: center;
+  width: min-content;
+  margin: auto;
+};
